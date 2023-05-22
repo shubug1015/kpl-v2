@@ -1,0 +1,9 @@
+.carousel {
+  height: 500px;
+  z-index: 0;
+}
+
+.carousel-inner {
+  height: 100%;
+  z-index: 0;
+}

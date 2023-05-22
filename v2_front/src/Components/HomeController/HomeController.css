@@ -1,0 +1,8 @@
+.hide {
+  display: none;
+}
+
+.not_hide {
+  display: flex;
+  justify-content: center;
+}

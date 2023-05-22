@@ -1,0 +1,45 @@
+.dropdown-toggle::after {
+  display: none;
+  visibility: hidden;
+}
+
+.dropdown-menu {
+  outline: none;
+  height: 250px;
+}
+
+.dropdown-item {
+  outline: none;
+  box-shadow: none;
+}
+
+.header.hidden {
+  display: none;
+}
+
+.unwrap {
+  position: absolute;
+  top: 180px;
+  display: flex;
+  align-items: center;
+  border: none;
+  width: 100vw;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.wrap {
+  position: fixed;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  border: none;
+  width: 100vw;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 4px 12px 1px rgba(0, 0, 0, 0.1);
+}
+
+.hide {
+  display: none;
+}
